@@ -1,4 +1,4 @@
-package com.cv.crypto.main;
+package com.cv;
 
 import com.cv.decoder.impl.Base64Decoder;
 import com.cv.decoder.impl.HtmlUnEscape;
@@ -11,19 +11,18 @@ import com.cv.encoder.impl.Base64Encoder;
 
 public class Main {
     public static void main(String[] args) {
-        // Just uncomment and use whichever you want
 
-        // base64Encode("Your Plain Text Goes Here");
-        // base64Decode("U2ltcGxlIFBsYWluIFRleHQgdG8gYmUgQmFzZTY0IEVuY29kZWQ=");
+         base64Encode("Your Plain Text Goes Here");
+         base64Decode("U2ltcGxlIFBsYWluIFRleHQgdG8gYmUgQmFzZTY0IEVuY29kZWQ=");
 
-        // xmlEscape("<node>Your XML String Here </node>");
-        // xmlUnescape("&lt;title&gt; XML escaped String Here &lt;/title&gt;");
+         xmlEscape("<node>Your XML String Here </node>");
+         xmlUnescape("&lt;title&gt; XML escaped String Here &lt;/title&gt;");
 
-        // htmlEscape("<title>Your HTML String Here </title>");
-        // htmlUnEscape("&lt;title&gt; HTML escaped String Here &lt;/title&gt;");
+         htmlEscape("<title>Your HTML String Here </title>");
+         htmlUnEscape("&lt;title&gt; HTML escaped String Here &lt;/title&gt;");
 
-        // urlEncode("https://google.com");
-        // urlDecode("https%3A%2F%2Fwww.google.com%2Fphoto-gifts%2Fgift-certificates");
+         urlEncode("https://google.com");
+         urlDecode("https%3A%2F%2Fwww.google.com%2Fphoto-gifts%2Fgift-certificates");
     }
 
     private static void urlEncode(String plainUrl) {
